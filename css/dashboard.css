@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 
 }
 body{
-    margin: 0px;
-    padding: 0px;
+
     font-family: "open sans",sans-serif  ;
+    height: 100vh;
 }
 *fucs{
     outline: none;
@@ -13,3 +15,11 @@ body{
 a{
     text-decoration: none;
 }
+.page{
+    background-color:hsl(212deg 33.33% 91.18%);
+    min-height:100vh ;
+}
+
+ul{padding: 0px;
+list-style: none;}
+

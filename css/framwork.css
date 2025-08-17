@@ -1,0 +1,56 @@
+/* start flex box */
+.d-flex{display: flex   ;}
+.flex-row{
+    flex-direction: row;
+}
+.align-center{text-align:justify;}
+/* end flex box */
+
+/* start padding  */
+.p-10{
+    padding: 10px;
+}
+.p-20{
+    padding: 20px;
+}
+/* end padding  */
+
+/* start margin */
+.m-20{
+    margin: 20px;
+}
+.m-0{
+    margin: 20px;
+}
+/* end margin */
+
+/* start gap */
+.gap-10{
+    gap: 10px;
+}
+/* end gap */
+
+/* start background  */
+.bg-blue{
+    background-color: hsl(200.86deg 79.57% 46.08%);
+}
+/* end background */
+
+/* start color */
+.c-white{
+    color: white;
+}
+/* end color */
+
+ /* start font */
+ .fs-14{font-size: 14px;}
+ .db-f{
+    font-size: x-large;
+ }
+ /* end font  */
+ 
+ /* start border */
+ .rad-6{
+    border-radius: 6px;
+ }
+ /* end border */
