@@ -1,10 +1,72 @@
+
 /* start flex box */
 .d-flex{display: flex   ;}
+.flex-column{
+    flex-direction: column;
+}
 .flex-row{
     flex-direction: row;
 }
-.align-center{text-align:justify;}
-/* end flex box */
+.align-center{align-content: center;}
+.justify-center{
+    justify-content: center;
+}
+
+.justify-space{
+    justify-content: space-evenly;
+}
+
+/* end fle  x box */
+
+/* Start grid */
+
+/* End grid */
+/* Start position */
+.position-ab{
+    position: absolute;
+}
+.position-re{
+    position: relative;
+}
+.top{
+    top: 0px;
+}
+.right{
+    right: 0px;
+}
+.bottom{
+    bottom: 0px;
+}
+.left{
+    left: 0px;
+}
+
+
+.top--15{
+    top: -25px;
+}
+.top-10{
+    top: 10px;
+}
+.right-20{
+    right: 20px;
+}
+.r-30{right: 30px;}
+.top-0{
+    top: 0px;
+}
+.bottom-10{
+    bottom: 10px;
+}
+
+.left-30{
+    left: 30px;
+}
+.left--25{
+    left: -25;
+}
+/* end position */
+
 
 /* start padding  */
 .p-10{
@@ -22,6 +84,10 @@
 .m-0{
     margin: 20px;
 }
+.p-left20{padding-left: 20px;}
+.margin-bottom{
+    margin-bottom: 20px;
+}
 /* end margin */
 
 /* start gap */
@@ -31,8 +97,20 @@
 /* end gap */
 
 /* start background  */
-.bg-blue{
-    background-color: hsl(200.86deg 79.57% 46.08%);
+.h-color{
+    color: black;
+}
+.p-color{
+        color: #777777;
+}
+.page-color{
+    background-color: hsl(212deg 33.33% 91.18%);
+}
+.gold-bgc{
+    background-color:hsl(42.21deg 86.15% 54.71%);
+}
+.bgc-white{
+    background-color: white;
 }
 /* end background */
 
@@ -40,17 +118,95 @@
 .c-white{
     color: white;
 }
+.p-color{
+    color: gray;
+}
+.aside-bgc{
+    background-color: hsl(200.86deg 79.57% 46.08%);;
+}
 /* end color */
 
  /* start font */
- .fs-14{font-size: 14px;}
+ /* .fs-14{font-size: 14px !important; } */
+ .fs-10{
+    font-size: 10px;
+ }
+
  .db-f{
     font-size: x-large;
  }
+ .i-30{
+    font-size: 30px;
+ }
+.fs-20{
+    font-size: 20px;
+ }
+ .fs-18{
+    font-size: 18px;
+ }
+ .fs-14{
+    font-size: 14px;
+ }
+.fs-11{
+font-size: 11px;
+}
+
  /* end font  */
  
  /* start border */
  .rad-6{
     border-radius: 6px;
  }
+ .rad-10{
+    border-radius: 10px;
+ }
+ .rad-50{
+    border-radius: 50px;
+ }
+.none-border{
+    border: none;
+}
  /* end border */
+/* Start width and height */
+.w-10{
+width: 10px;
+}
+.w-50{
+    width: 50px;
+}
+
+.w-150{
+    width: 150px;
+}
+.w-250{
+    width: 250;
+}
+.W75{
+    width:75%;
+}
+.W50{
+    width: 50%;
+}
+.s-100-50{
+    width:100px ;
+    height: 50px    ;
+}
+
+.w-50pre{
+    min-width: 50%;
+}
+.h-10{
+    height: 10px;
+}
+.h-30{
+    height: 30px;
+}
+
+.h-50{
+height: 50px;
+}
+/*End width and height */
+
+.f-bold{
+    font-weight: bold;
+}
