@@ -48,14 +48,24 @@ a{
 .announcements{
     grid-column: 9/12;
     grid-row: 2/7;
-    margin: 40px 40px 0px 20px;
+    margin: 40px 40px 10px 20px;
     padding: 20px 30px 20px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
 }
-
+.trending{
+    grid-column: 9/12;
+    grid-row: 7/12;
+    margin: 10px 40px 40px 20px;
+    padding: 0px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
 
 ul{padding: 0px;
 list-style: none;}
@@ -68,15 +78,7 @@ list-style: none;}
     background-color:hsl(200, 90%, 59%) ;
 
 }
-/* Resposive */
-/* @media (max-width:767px) {
-    .sidebar ul  a span {
-        display: none;
-    }
-    .sidebar{
-        width: 50px;
-    }
-} */
+
 .header{
     background-color: white;
     height: 20vh;
@@ -87,7 +89,7 @@ list-style: none;}
 }
 .actions{
     margin: 0px 20px 20px 0px;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 .actions span{
@@ -104,3 +106,58 @@ list-style: none;}
 }
 
 
+/* Resposive */
+@media (max-width:768px) {
+   .page{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+    .sidebar ul  a span {
+        display: none;
+    }
+    .sidebar{
+        width: 50px;
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+    }
+   
+    .header{
+        height: 10vh;
+    }
+    .header .searcharea{
+        width: 30%;
+    }
+    .header .header-bottom{
+        display: none;
+    }
+    .header .actions {
+        height: 22px;   
+     }
+     .page .projects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        }
+        .projects p
+        {
+            width: auto;
+            height:20vh;
+        }
+        .announcements{
+display: none;        }
+        .trending {display:none;}
+
+}
+@media (max-width:425px) {
+    .header .actions{
+            display: flex;
+            flex-direction: column;
+            overflow: scroll;
+            font-size: 10px;
+            height: 30px;
+        
+        }
+   
+
+    
+}
